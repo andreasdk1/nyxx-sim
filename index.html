@@ -202,10 +202,18 @@
     function updateNav() {
       const scrollY = window.scrollY;
       const navH = document.getElementById('nav').offsetHeight;
-      let current = sections[0].id;
-      sections.forEach(section => {
-        if (scrollY >= section.offsetTop - navH - 8) current = section.id;
-      });
+      const atBottom = scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+
+      let current = atBottom
+        ? sections[sections.length - 1].id
+        : sections[0].id;
+
+      if (!atBottom) {
+        sections.forEach(section => {
+          if (scrollY >= section.offsetTop - navH - 8) current = section.id;
+        });
+      }
+
       navLinks.forEach(link => {
         link.classList.toggle('active', link.getAttribute('href') === '#' + current);
       });
