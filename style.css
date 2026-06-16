@@ -280,7 +280,6 @@ h2 span { color: var(--cyan); }
   transition: box-shadow 0.15s ease;
 }
 .svc-card:hover { box-shadow: 0 4px 16px rgba(63,81,181,0.08); }
-.svc-card--active { border-color: var(--indigo-l); }
 
 .svc-icon {
   width: 30px;
@@ -383,11 +382,28 @@ h2 span { color: var(--cyan); }
 /* ============================================================
    About
    ============================================================ */
+.about-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-photo {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--border);
+}
+
+.about-text { flex: 1; max-width: 580px; }
+
 .about-body {
   font-size: 15px;
   color: var(--text-body);
   line-height: 1.8;
-  max-width: 620px;
   margin-bottom: 16px;
 }
 
