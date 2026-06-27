@@ -42,7 +42,7 @@ button { font-family: inherit; }
    Typography helpers
    ============================================================ */
 .eyebrow {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--muted-2);
@@ -51,7 +51,7 @@ button { font-family: inherit; }
 
 h1 {
   font-family: Georgia, serif;
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 400;
   color: var(--navy);
   line-height: 1.25;
@@ -61,7 +61,7 @@ h1 em { color: var(--cyan); font-style: normal; }
 
 h2 {
   font-family: Georgia, serif;
-  font-size: 29px;
+  font-size: 32px;
   font-weight: 400;
   color: var(--navy);
   margin-bottom: 32px;
@@ -82,7 +82,7 @@ h2 span { color: var(--cyan); }
   padding: 12px 28px;
   background: var(--navy);
   color: #e8eaf6;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 2px;
   border-radius: 4px;
   border: none;
@@ -132,7 +132,7 @@ h2 span { color: var(--cyan); }
 }
 
 .nav-links a {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1.5px;
   color: var(--indigo-l);
   padding-bottom: 2px;
@@ -158,7 +158,7 @@ h2 span { color: var(--cyan); }
 .hero-left { flex: 1; }
 
 .hero-eyebrow {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 3px;
   color: var(--indigo-l);
   margin-bottom: 16px;
@@ -166,7 +166,7 @@ h2 span { color: var(--cyan); }
 }
 
 .hero-name {
-  font-size: 14px;
+  font-size: 15px;
   color: #7986cb;
   border-left: 2px solid #c5cae9;
   padding-left: 10px;
@@ -174,7 +174,7 @@ h2 span { color: var(--cyan); }
 }
 
 .hero-sub {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--text-body);
   line-height: 1.75;
   margin-bottom: 32px;
@@ -182,7 +182,7 @@ h2 span { color: var(--cyan); }
 }
 
 .hero-note {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted-2);
   margin-top: 14px;
 }
@@ -204,7 +204,7 @@ h2 span { color: var(--cyan); }
 }
 
 .stat-label {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--muted-2);
@@ -213,19 +213,19 @@ h2 span { color: var(--cyan); }
 
 .stat-val {
   font-family: Georgia, serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--navy);
 }
 .stat-val.sm {
-  font-size: 15px;
+  font-size: 16px;
   font-family: Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
 
 .stat-sub {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--indigo-l);
   margin-top: 2px;
 }
@@ -241,7 +241,7 @@ h2 span { color: var(--cyan); }
 }
 
 .tools-label {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #b0b8d0;
@@ -249,7 +249,7 @@ h2 span { color: var(--cyan); }
 }
 
 .tool-badge {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: var(--indigo-l);
   background: #eef0fb;
@@ -289,7 +289,7 @@ h2 span { color: var(--cyan); }
 }
 
 .svc-name {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 4px;
@@ -297,7 +297,7 @@ h2 span { color: var(--cyan); }
 }
 
 .svc-tool {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--muted-2);
@@ -305,7 +305,7 @@ h2 span { color: var(--cyan); }
 }
 
 .svc-desc {
-  font-size: 12px;
+  font-size: 13px;
   color: #6a7090;
   line-height: 1.5;
 }
@@ -332,7 +332,7 @@ h2 span { color: var(--cyan); }
 }
 
 .case-tag {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 1.2px;
   padding: 3px 8px;
   border-radius: 3px;
@@ -341,7 +341,7 @@ h2 span { color: var(--cyan); }
 }
 
 .case-title {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 8px;
@@ -349,7 +349,7 @@ h2 span { color: var(--cyan); }
 }
 
 .case-desc {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-body);
   line-height: 1.6;
   margin-bottom: 16px;
@@ -357,12 +357,12 @@ h2 span { color: var(--cyan); }
 
 .case-metric {
   font-family: Georgia, serif;
-  font-size: 26px;
+  font-size: 29px;
   color: var(--cyan);
 }
 
 .case-metric-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted-2);
   letter-spacing: 1px;
   margin-top: 2px;
@@ -371,7 +371,7 @@ h2 span { color: var(--cyan); }
 .case-link {
   display: inline-block;
   margin-top: 16px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--indigo-l);
   letter-spacing: 0.5px;
   transition: color 0.15s ease;
@@ -379,7 +379,7 @@ h2 span { color: var(--cyan); }
 .case-link:hover { color: var(--navy); }
 
 .cases-note {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted-2);
   font-style: italic;
   margin-top: 20px;
@@ -407,7 +407,7 @@ h2 span { color: var(--cyan); }
 .about-text { flex: 1; max-width: 580px; }
 
 .about-body {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--text-body);
   line-height: 1.8;
   margin-bottom: 16px;
@@ -422,7 +422,7 @@ h2 span { color: var(--cyan); }
 }
 
 .contact-sub {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-body);
   margin-bottom: 24px;
   max-width: 480px;
@@ -441,7 +441,7 @@ h2 span { color: var(--cyan); }
   padding: 10px 14px;
   border: 0.5px solid var(--border);
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Arial, sans-serif;
   background: var(--bg);
   color: var(--navy);
@@ -459,7 +459,7 @@ h2 span { color: var(--cyan); }
 .contact-form textarea { resize: vertical; min-height: 100px; }
 
 .form-note {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted-2);
   margin-top: 10px;
 }
@@ -476,6 +476,6 @@ h2 span { color: var(--cyan); }
 }
 
 #footer span {
-  font-size: 12px;
+  font-size: 13px;
   color: #b0b8d0;
 }
